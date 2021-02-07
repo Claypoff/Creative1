@@ -88,7 +88,7 @@ html {
   display: flex;
   width: 100%;
   height: 650px;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .main-item {
@@ -115,7 +115,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   flex-wrap: wrap;
   width: 40%;
   margin-bottom: 100px;
@@ -166,10 +166,10 @@ html {
   background-color: #3cebff;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   font-weight: bold;
   color: #002529;
@@ -438,6 +438,10 @@ html {
 }
 
 @media only screen and (min-width: 961px) {
+  .main-3 {
+    justify-content: flex-end;
+  }
+
   .main-pricing2 {
     flex-direction: row;
     flex-wrap: wrap;
